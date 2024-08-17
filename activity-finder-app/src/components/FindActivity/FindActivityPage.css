@@ -1,0 +1,24 @@
+/* FindActivityPage.css */
+.find-activity-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.results-section {
+  margin: 20px 0;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .find-activity-page {
+    padding: 10px;
+  }
+}
